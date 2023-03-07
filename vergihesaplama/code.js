@@ -30,11 +30,11 @@ function vergiHesapla()
         console.log(aracTipi);
     }
     //2. döngü bloğu-araç gücü seçimini alma
-    for(i=0; i<document.getElementsByName("motorGucu").length; i++)
+    for(i=0; i<document.getElementsByTagName("motorGucu").length; i++)
     {
-        if(document.getElementsByName("motorGucu")[i].checked)
+        if(document.getElementsByTagName("motorGucu")[i].checked)
         {
-            aracGucu = document.getElemenstByName("motorGucu")[i].value;
+            aracGucu = document.getElementsByTagName("motorGucu")[i].value;
         }
         console.log(aracGucu);
     }
