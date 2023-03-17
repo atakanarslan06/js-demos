@@ -1,0 +1,44 @@
+{
+    "sorular":[
+        {
+            "soru":"Aşağıdakilerden hangisi JavaScript ile açılır pencerede yazdırma fonksiyonudur?",
+            "secenekA":"alert()",
+            "secenekB":"document.write()",
+            "secenekC":"console.log()",
+            "secenekD":"document.querySelector()",
+            "cevap":"secenekA"
+        },
+        {
+            "soru":"Aşağıdakilerden hangisi JavaScript ile harici veri kullanma yapılarından değildir?",
+            "secenekA":"Javascript Object",
+            "secenekB":"JSON",
+            "secenekC":"Mysql",
+            "secenekD":"MongoDb",
+            "cevap":"secenekA"
+        },
+        {
+            "soru":"Javascript'i kim icat etmiştir?",
+            "secenekA":"Brendan Eich",
+            "secenekB":"Thomas Java",
+            "secenekC":"James Gosling",
+            "secenekD":"Linus Helsinki",
+            "cevap":"secenekA"
+        },
+        {
+            "soru":"Javascript'in alternatif adı nedir?",
+            "secenekA":"LimeScript",
+            "secenekB":"JXXScript",
+            "secenekC":"ECMScript",
+            "secenekD":"ECMAScript",
+            "cevap":"secenekD"
+        },
+        {
+            "soru":"Javascript ilk başlangıçta _____ adı altında geliştirilmiştir.",
+            "secenekA":"ActionScript",
+            "secenekB":"Mocha",
+            "secenekC":"Javia",
+            "secenekD":"Oak",
+            "cevap":"secenekB"
+        }
+    ]
+}
