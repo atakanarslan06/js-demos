@@ -39,6 +39,11 @@ body{
     color: #111111;
     font-weight: 500;
     position: relative;
+    border-radius: #8052ec;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #8052ec;
 }
 #newtask button{
     position: relative;
@@ -53,4 +58,13 @@ body{
     border: none;
     color: #ffffff;
     cursor: pointer;
+}
+#tasks{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-top: 60px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
 }
