@@ -13,5 +13,19 @@ document.querySelector('#push').onclick = function(){
             </button>
         </div>
     `;
+
+    var current_tasks = document.
+    querySelectorAll(".delet");
+    for(var i=0 ;i<current_tasks.length; i++){
+        current_tasks[i].onclick = function(){
+            this.parentNode.remove();
+        }
+    }
+    var tasks = document.querySelectorAll(".tasks");
+    for(var i=0; i<tasks.length; i++){
+        tasks[i].onclick = function(){
+            this.classList.toggle('completed');
+        }
+    }
     }
 }
